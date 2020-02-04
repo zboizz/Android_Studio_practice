@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TapHost
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <LinearLayout>
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TabWidget>
+            <FramLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+               <LinearLayout
+                   android:id="@+id/tabSong"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="#f00000"
+                   android:orientation="horizontal">
+               </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/tabArtist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#f0f000"
+                    android:orientation="horizontal">
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/tabAlbum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#f000ff">
+                </LinearLayout>
+            </FramLayout>
+        </LinearLayout>
+</TapHost>
+
+
