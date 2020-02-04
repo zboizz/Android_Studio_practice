@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MidB_2</string>
+
+    <string-array name="like">
+        <item>외모</item>
+        <item>능력</item>
+        <item>성격</item>
+        <item>가문</item>
+        <item>신앙</item>
+    </string-array>
+</resources>
